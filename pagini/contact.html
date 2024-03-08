@@ -1,0 +1,52 @@
+<style>
+    form {
+        background-image: url("imagini/contactus.jpg");
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: cover;
+        background-position:top;
+        width: 100%;
+        padding: 30px;
+    }
+</style>
+
+
+<form method="post" action="prelucrare.php">
+    <h2>CONTACTEAZA-NE</h2>
+    <img src="imagini/contact.jpg" width="15%"/>
+    <h3>Scrie-ne un mesaj si in cel mai scurt timp unul dintre colegii nostrii o sa va contacteze: </h3>
+
+
+    <table border="0" cellpadding="7">
+        <tr>
+            <td>Nume:</td>
+            <td>
+                <input type="text" name="nume" size="50" placeholder="Numele tau.."/>
+            </td>
+        </tr>
+        <tr>
+            <td>Prenume:</td>
+            <td>
+                <input type="text" name="prenume" size="50" placeholder="Prenumele tau.."/>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>
+                <input type="email" name="email" size="50" placeholder="exemplu@gmail.com"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Mesaj:</td>
+            <td>
+                <textarea rows="5" cols="50" name="mesaj" placeholder="Mesajul tau.."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Trimite" />
+            </td>
+        </tr>
+    </table>
+
+</form>

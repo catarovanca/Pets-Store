@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.banner-div {
+    display: flex;
+    justify-content: center;
+    margin: 0 20%;
+}
+
+.continut {
+    display: flex;
+    justify-content: center;
+    margin: 0 20% 100px 20%;
+}
+
+.banner-div img {
+    height: 300px;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #d17fe7;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: #060101f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #e84fbf;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    background-color: #deb3ea;
+    color: black;
+    text-align: center;
+}
+
+footer:hover {
+    color: rgb(207, 33, 33);
+}
+
+.buton-footer {
+    background-color: rgb(233, 84, 211);
+}
+
+.container-pisici {
+    margin: auto;
+    padding: 10px;
+}
+
+.pisici-jumate {
+    width: 50%;
+    text-align: center;
+}
+
+.pisici-parinte {
+    display: flex;
+}
+
+.caini-jumate {
+    width: 50%;
+}
+
+.container-caini {
+    margin: auto;
+    padding: 10px;
+}
+
+.caini-parinte {
+    display: flex;
+}
+
+.produse-parinte {
+    display: flex;
+    
+}
+
+.produse-jumate{
+    width: 50%;
+    text-align: center;
+}
+
+.home-parinte{
+    display: flex;
+}
+
+.home-jumate{
+    width: 50%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: block;
+    }
+
+    .navbar.responsive a {
+        display: block;
+        text-align: center;
+    }
+
+    .banner-div {
+        margin: 0;
+    }
+    .continut {
+        margin: 0 0 100px 0;
+    }
+    .pisici-parinte{
+        display: block;
+    }
+    .pisici-jumate{
+        width: 100%;
+    }
+    .caini-parinte{
+        display: block;
+    }
+    .caini-jumate{
+        width: 100%;
+    }
+    .home-parinte{
+        display: block;
+    }
+    .home-jumate{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .produse-parinte{
+        display: block;
+        padding: 0;
+    }
+    .produse-jumate{
+        width: 100%;
+    }
+}
